@@ -1300,7 +1300,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/BG10.jpg");
+		background-image: url("images/overlay.png"), url("images/bg10.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1469,7 +1469,7 @@ input, select, textarea {
 	form input[type="password"],
 	form select,
 	form textarea {
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		border: 0;
 		background: #f4f4f4;
 		padding: 0.75em;
@@ -1586,7 +1586,7 @@ input, select, textarea {
 		-webkit-transition: background-color .25s ease-in-out;
 		-ms-transition: background-color .25s ease-in-out;
 		transition: background-color .25s ease-in-out;
-		-webkit-appearance: none;
+		/* -webkit-appearance: none; */
 		display: inline-block;
 		background-color: #222222;
 		color: #ffffff;
